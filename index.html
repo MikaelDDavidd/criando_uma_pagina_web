@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como começar no Html</title>
+</head>
+<body>
+    <h1 id="inicio">Introdução ao HTML</h1>  <!-- Este é o título principal do projeto -->
+    <hr/>
+    <h2>Índex</h2> 
+    <ul>   <!-- Aqui eu crio uma lista para cada tema abordado -->
+        <li><a href="#estrutura">Estrutura Básica do HTML</a></li>
+        <li><a href="#tags">Falando Sobre Tags</a></li>
+        <li><a href="#atributos">Atributos das Tags</a></li>
+        <li><a href="#textos">Textos</a></li>
+        <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#referencias">Referências</a></li>
+    </ul>
+    <h2 id="estrutura">Estrutura Básica do HTML</h2> <!-- Aqui eu crio meu primeiro topico e desenvolvo ele -->
+    <p>A estrutura básica do HTML é composta por três tags principais que são: <strong>HTML, HEAD e BODY.</strong>
+        A tag HTML é a principal que envolve as duas próximas tags, a tag HEAD que contém tudo que precisa ser carregado
+        antes da página, como links de estilo, título, o próprio style que é responsável pela estilização da página e o
+        BODY é o corpo da página, a parte que é mostrada para o usuário, como textos, imagens, links e por aí vai.</p>
+    
+    <h2 id="tags">Falando sobre Tags</h2> <!-- Aqui eu crio meu segundo topico e desenvolvo ele -->
+    <p>As <strong>tags</strong> representam todos os elementos que podem ser criados no HTML, desde pequenos textos a imagens,
+        links e uma grande variedade de outros elementos. Alguns exemplos de tags são as de texto que vão desde o <strong>h1</strong>
+        até o <strong>h6</strong>, que representam várias variações de títulos de textos, a tag <strong>p</strong> que representa um parágrafo.
+        As tags são compostas pelo conteúdo do seu elemento mas também por atributos, que vamos ver a seguir.</p>
+    
+    <h2 id="atributos">Atributos das Tags</h2>
+    <p> Os atributos são uma parte essencial no HTML, pois através deles conseguimos referenciar tags
+        criadas, para estilizar, aplicar funções em JavaScript e entre outros. Os atributos estão
+        contidos dentro das tags. Alguns dos atributos principais são: o <strong>id</strong>, que
+        serve para referenciar tags para o JavaScript, podendo assim agregar funções a um botão, 
+        por exemplo, ou salvar um texto de um input. Outro atributo principal é o
+        <strong>class</strong>, que serve para referenciar as tags para as folhas de estilo dentro
+        do head ou em um arquivo separado, assim possibilitando a estilização dos nossos elementos (tags).
+        Outro atributo muito importante é o <strong>style</strong>, que nos permite estilizar uma tag
+        dentro da própria tag, o que pode ser muito útil quando precisa experimentar a implementação
+        de um estilo. 
+    </p>
+        <p>Temos também atributos exclusivos de tags como na tag <strong>input</strong>,
+        nós temos o <strong>type</strong> que pode definir o tipo de entrada da nossa caixa input,
+        que pode ser um número ou texto entre outros.</p>
+
+    
+
+    <h2 id="textos">Textos</h2>
+    <p>No HTML, os textos são uma parte fundamental na construção de uma página, já que é assim que
+        interagimos com o cliente (usuário). O próprio HTML nos dá uma grande gama de opções de textos para
+        utilizarmos.
+    </p>
+    <p>Podemos listar alguns deles como os headers ou títulos que são os <strong>h1, h2, h3, h4, h5 e h6.</strong>
+        Esses são os títulos que temos disponíveis que podem ser citados como uma hierarquia onde varia, por exemplo, o tamanho,
+        desde o <strong>h1</strong> sendo o maior e o <strong>h6</strong> o menor deles.
+    </p>
+    <p>Uma das principais tags de texto que utilizamos é a tag <strong>p</strong>, que é o nosso parágrafo,
+        utilizada para escrever grandes textos como este aqui. Temos também o <strong>strong</strong>, que
+        deixa o nosso texto em negrito, o <strong>i</strong>, que deixa o nosso texto em itálico, o <strong>span</strong>,
+        que destaca uma parte do nosso texto, por exemplo, entre outros.
+    </p>
+    
+
+    <h2 id="listas">Listas Ordenadas e Não Ordenads</h2>
+    <p>As listas ordenadas e não ordenadas são elementos fundamentais em HTML para estruturar e organizar o conteúdo de uma página da web. Listas ordenadas são usadas quando a ordem dos itens é significativa, e são representadas pela tag <strong>ol</strong>, de "Ordered List". Cada item é marcado com a tag <strong>li</strong>, de "List Item", e por padrão, os itens são numerados sequencialmente.
+        Por outro lado, as listas não ordenadas são usadas quando a ordem dos itens não é importante. Elas são representadas pela tag <strong>ul</strong>, de "Unordered List". Assim como nas listas ordenadas, cada item é marcado com <strong>li</strong>, mas os itens não são numerados.
+        </p>
+        <p>Ambos os tipos de lista podem conter elementos como texto, imagens, links e outros elementos HTML. Eles são úteis para criar menus de navegação, listas de itens de produtos, passos de instruções e muito mais.</p>
+        <p>Ao usar esses elementos, é importante considerar a semântica e a acessibilidade. Strong elementos são usados para destacar o texto importante, tornando-o visualmente mais forte. Isso é útil para destacar informações cruciais dentro de uma lista, garantindo que sejam facilmente identificáveis pelos usuários, especialmente aqueles que usam leitores de tela ou têm deficiências visuais.</p>
+        
+    <h2 id="links">Links</h2>
+        <p>No HTML, os links são elementos fundamentais para conectar diferentes páginas da web e criar uma experiência de navegação interativa para os usuários. Um link é representado pela tag <strong>&lt;a&gt;</strong>, de "anchor" (âncora), e é usado para direcionar o usuário para outra página da web, recurso, ou até mesmo dentro da mesma página.</p>
+        <p>Para criar um link, usamos a tag &lt;a&gt; e especificamos o destino do link no atributo <strong>href</strong> (Hypertext Reference). Por exemplo, para criar um link para a página inicial de um site, podemos escrever <strong>&lt;a href="index.html"&gt;Página Inicial&lt;/a&gt;</strong>.</p>
+        <p>Além do atributo <strong>href</strong>, podemos adicionar outros atributos aos links para controlar o comportamento, como o atributo <strong>target</strong>, que define onde a página vinculada será aberta (por exemplo, em uma nova aba ou na mesma aba).</p>
+        <p>Links podem conter não apenas texto, mas também imagens, tornando-os uma forma versátil de navegação. Eles são essenciais para criar menus de navegação, links para páginas relacionadas, referências externas e muito mais, tornando a web uma rede interconectada de informações e recursos.</p>
+
+    <h2 id="referencias">Referências</h2>
+        <ul>   
+            <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE">Estrutura Básica do HTML</a></li>
+            <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE">Falando Sobre Tags</a></li>
+            <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE">Atributos das Tags</a></li>
+            <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE">Textos</a></li>
+            <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE">Listas Ordenadas e Não Ordenadas</a></li>
+            <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE">Links</a></li>
+        </ul>
+        
+    </body>
+</html>
